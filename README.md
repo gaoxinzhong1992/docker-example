@@ -1,7 +1,6 @@
 ## docker-example
 docker example
 
-
 ## docker basic command
 
 ```bash
@@ -12,9 +11,9 @@ docker example
 5、docker logs
 6、docker kill container id
 7、docker stop container id 
-8、docker rm container id
-9、docker rmi images
-x、docker start container id
+8、docker start container id
+9、docker rm container id
+x、docker rmi images
 ```
 
 ### docker ps command 
@@ -74,30 +73,24 @@ Options:
   -e, --env list             Set environment variables
       --env-file list        Read in a file of environment variables
   -i, --interactive          Keep STDIN open even if not attached
-      --privileged           Give extended privileges to the command
-  -t, --tty                  Allocate a pseudo-TTY
+      --privileged           Give extended privileges to the command -t, --tty                  Allocate a pseudo-TTY
   -u, --user string          Username or UID (format: <name|uid>[:<group|gid>])
   -w, --workdir string       Working directory inside the container
 ```
 
+### docker-compose command
+
+```bash
+1、docker-compose -f xx.yml up -d
+2、docker-compose -f xx.yml rm -sf
+```
+
 ## docker install zookeeper cluster
 
-### pull zookeeper images
-
-* 注:latest是zookeeper版本,latest说明是最新版本.
+* 注:latest是zookeeper版本,latest说明是最新版本。
 
 ```bash
-docker pull zookeeper:latest
-```
-
-### docker-compose install zookeeper cluster
-
-```bash
-docker-compose -f zookeeper-cluster.yml up -d
-```
-
-### docker-compose remove zookeeper cluster
-
-```bash
-docker-compose -f zookeeper-cluster.yml rm -sf
+1、docker pull zookeeper:latest
+2、docker-compose -f zookeeper-cluster.yml up -d
+3、docker-compose -f zookeeper-cluster.yml rm -sf
 ```
