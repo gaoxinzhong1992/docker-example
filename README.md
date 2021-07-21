@@ -9,6 +9,7 @@ docker example
 docker ps [options]
 ```
 
+```xml
 * Options:
    * -a, --all             Show all containers (default shows just running) -  显示所有容器,包括未运行的。
    * -f, --filter filter   Filter output based on conditions provided -  根据条件过滤显示内容。
@@ -18,7 +19,7 @@ docker ps [options]
    *     --no-trunc        Don't truncate output - 不截断输出。
    * -q, --quiet           Only display container IDs - 静默模式，只显示容器ID 
    * -s, --size            Display total file sizes - 显示总的文件大小
-
+```
 
 ## docker ps实例
 
