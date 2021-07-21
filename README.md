@@ -9,15 +9,15 @@ docker example
 docker ps [options]
 ```
 
-Options:
-  -a, --all             Show all containers (default shows just running) -  显示所有容器,包括未运行的。
-  -f, --filter filter   Filter output based on conditions provided -  根据条件过滤显示内容。
-      --format string   Pretty-print containers using a Go template - 指定返回值的模版文件。
-  -n, --last int        Show n last created containers (includes all states) (default -1) - 列出最近创建的N个容器。
-  -l, --latest          Show the latest created container (includes all states) - 显示最近创建的容器。
-      --no-trunc        Don't truncate output - 不截断输出。
-  -q, --quiet           Only display container IDs - 静默模式，只显示容器ID
-  -s, --size            Display total file sizes - 显示总的文件大小
+* Options:
+   * -a, --all             Show all containers (default shows just running) -  显示所有容器,包括未运行的。
+   * -f, --filter filter   Filter output based on conditions provided -  根据条件过滤显示内容。
+   *     --format string   Pretty-print containers using a Go template - 指定返回值的模版文件。
+   * -n, --last int        Show n last created containers (includes all states) (default -1) - 列出最近创建的N个容器。
+   * -l, --latest          Show the latest created container (includes all states) - 显示最近创建的容器。
+   *     --no-trunc        Don't truncate output - 不截断输出。
+   * -q, --quiet           Only display container IDs - 静默模式，只显示容器ID 
+   * -s, --size            Display total file sizes - 显示总的文件大小
 
 
 ## docker ps实例
