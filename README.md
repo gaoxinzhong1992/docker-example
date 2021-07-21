@@ -3,7 +3,7 @@ docker example
 
 ## docker 常用命令
 
-## docker ps命令
+### docker ps命令
 
 ```bash
 docker ps [options]
@@ -21,7 +21,7 @@ docker ps [options]
    * -s, --size            Display total file sizes - 显示总的文件大小
 ```
 
-## docker ps实例
+### docker ps实例
 
 ```bash
 # gaoxinzhong @ gaoxinzhongdeMacBook-Pro in ~ [11:25:12] 
@@ -48,9 +48,9 @@ a99d4dd00c86   hhyo/inception              "/bin/sh -c 'nohup /…"   5 days ago
 * NAMES 容器名称
 
 
-# docker安装zookeeper集群
+## docker安装zookeeper集群
 
-## 拉取zookeeper镜像
+### 拉取zookeeper镜像
 
 * 注:latest是zookeeper版本,latest说明是最新版本.
 
@@ -58,13 +58,13 @@ a99d4dd00c86   hhyo/inception              "/bin/sh -c 'nohup /…"   5 days ago
 docker pull zookeeper:latest
 ```
 
-## docker-compose安装zookeeper集群
+### docker-compose安装zookeeper集群
 
 ```bash
 docker-compose -f zookeeper-cluster.yml up -d
 ```
 
-## docker-composes删除zookeeper集群
+### docker-composes删除zookeeper集群
 
 ```bash
 docker-compose -f zookeeper-cluster.yml rm -sf
